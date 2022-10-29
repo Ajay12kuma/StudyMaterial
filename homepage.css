@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "google sans Regular";
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background: #fefefe;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    /* background: #11101b; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fefefe;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.handburger {
+    display: none;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color: #fefefe;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+    font-family: 'Righteous', cursive;
+}
+
+.nav-bar ul li a:hover {
+    color: #11101b;
+    /* background: #fefefe; */
+    /* background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%); */
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+.photocontainer {
+    width: 50%;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+.biocontainer {
+    width: 50%;
+    margin-right: 0px;
+    margin-top: 0%;
+    padding: 2px;
+}
+
+img {
+    height: 100vh;
+}
+
+.divforsaperation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.names {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+
+/* .nav-bar ul li a.active {
+    color: #11101b;
+    background: #fefefe;
+} */
